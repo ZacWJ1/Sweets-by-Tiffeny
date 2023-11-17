@@ -18,7 +18,16 @@
 				},
 
 		};
+	
+//Instagram Feed
 
+/*var userFeed = new Instafeed({
+	get: 'user',
+	target: "instafeed-container",
+	resolution: 'low_resolution',
+	accessToken: 'IGQWRPWWFYNlgzR2NmY1RfLTlvcWR4dHo1MmlYb0p1TUJNckRkUFluUFl1YkpXTWZA1OWdDdTgwZAkxEMnBERFBqUkp2dG52UnpmNWlMc1MtZAUtYOFhPaXZAMRVZAoVnNTcnJpOHE2TDV5VGpyWTVWQktFX2ctTDlHb3cZD'
+});*/ // tiffenys token IGQWRNWjBqQ2g5UEdmSG9JWEtwcmNNaDktQkdCWk5SNmRyU0dxaURaTklJMm1TdUN4RFp1VUNreXEzcEJjMHp5Vk1GUUdtbjF0azVYZAkNIVGg0Y1owTEotTVVXSE00N196ZA0s3R3hhVVpPLXh3cDhmNjYwaDUtZAGMZD
+//userFeed.run();
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
@@ -134,6 +143,17 @@
 				};
 
 				$t._updatePos = function() { $reel.css('transform', 'translate(' + pos + 'px, 0)'); };
+
+				$('form').on('click', '.submit', function(event) {
+
+					// Stop propagation, default.
+						event.stopPropagation();
+						event.preventDefault();
+	
+					// Submit form.
+						$(this).parents('form').submit();
+	
+				});
 
 			// Forward.
 				$forward

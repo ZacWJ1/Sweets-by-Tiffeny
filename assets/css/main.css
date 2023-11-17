@@ -71,6 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/*Instagram Feed*/
 
 /* Basic */
 
@@ -280,7 +281,9 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: flex-start;
+		padding-top: 40px;
+		
 	}
 
 		.row > * {
@@ -467,8 +470,8 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: -40px;
-			margin-left: -40px;
+			margin-top: -20px;
+			margin-left: 120px;
 		}
 
 			.row > * {
@@ -1815,6 +1818,7 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			
 
 /* List */
 
@@ -1943,7 +1947,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: white;
 		margin: 0 0 1em 0;
 	}
 
@@ -2100,6 +2104,7 @@ input, select, textarea {
 
 	.post.stub {
 		text-align: center;
+		padding-left: 100px;
 	}
 
 		.post.stub header {
@@ -2180,7 +2185,8 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #d57878;
+		color: black;
+		font-weight: bold;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2493,7 +2499,9 @@ input, select, textarea {
 			color: rgba(128, 128, 128, 0.75);
 			font-size: 0.8em;
 			cursor: default;
+			padding-left: 0;
 		}
+		
 
 			#footer .copyright a {
 				color: rgba(128, 128, 128, 0.75);
@@ -2676,6 +2684,9 @@ input, select, textarea {
 					padding-left: 2em;
 					padding-right: 2em;
 				}
+				.inner p{
+					color:  white	;
+				}
 
 		/* Banner */
 
@@ -2707,7 +2718,8 @@ input, select, textarea {
 			}
 
 			.tweet {
-				text-align: center;
+				text-align: left;
+				
 			}
 
 			.timestamp {
