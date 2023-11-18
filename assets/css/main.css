@@ -88,7 +88,7 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Indie Flower', cursive;
 		font-weight: 300;
 	}
 
@@ -106,7 +106,7 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Indie Flower', cursive;
 		font-weight: 300;
 	}
 
@@ -2127,7 +2127,8 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Indie Flower', cursive;
+		
 			font-weight: 400;
 		}
 
@@ -2919,7 +2920,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Indie Flower', cursive;
 						font-weight: 900;
 					}
 
